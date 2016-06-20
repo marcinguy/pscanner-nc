@@ -4,7 +4,7 @@ Parallel IP scanner with progressbar and SSL support (Ncureses/Blessings version
 
 ## Description
 
-Parallel IP scanner with progressbar and SSL support. Cut the scan time based on the amount of the Core installed on your computer.
+Parallel IP scanner with progressbar and SSL support. Cut the scan time based on the amount of the cores installed on your computer.
 
 ## Dependencies
 
@@ -21,17 +21,17 @@ Available in the package
 
 3) pip install requests (for the Certificate bundle)
 
-4) Other standard modules (import caluse)
+4) Other standard modules (import clause)
 
 
 ## Installation
 
-Everything is in the repo , so just drop the files to where you want to use it.
+Everything is in the repo, so just drop the files to where you want to use it.
 
 ## Usage
 
 ```
-usage: pscanner.py [-h] -i INPUT -o OUTPUT -p PORT -s SSL
+usage: pscanner-nc.py [-h] -i INPUT -o OUTPUT -p PORT -s SSL
 
 Port Scanner v0.99
 
