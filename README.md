@@ -1,6 +1,6 @@
 # Parallel IP Scanner
 
-Parallel IP scanner with progressbar and SSL support
+Parallel IP scanner with progressbar and SSL support (Ncureses/Blessings version)
 
 ## Description
 
@@ -21,6 +21,7 @@ Available in the package
 
 3) pip install requests (for the Certificate bundle)
 
+4) Other standard modules (import caluse)
 
 
 ## Installation
@@ -46,7 +47,7 @@ optional arguments:
 
 ## Website
 
-Repository is at: https://gitlab.com/marcinguy/pscanner
+Repository is at: https://gitlab.com/marcinguy/pscanner-nc
 
 ## Author, Copyright and License
 
