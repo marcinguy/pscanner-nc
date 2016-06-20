@@ -21,13 +21,12 @@ class Writer(object):
     specific place on the screen, defined at instantiation.
     This is the glue between blessings and progressbar.
     """
-    def __init__(self, location, term):
+    def __init__(self, location):
         """
         Input: location - tuple of ints (x, y), the position
                           of the bar in the terminal
         """
         self.location = location
-        self.term = term
 
     def write(self, string):
         with term.location(*self.location):
@@ -75,7 +74,7 @@ class ProgressPool(Pool):
 
         # initialize the progress bar
         if isinstance(pbar, str):
-            writer = Writer(location,term)
+            writer = Writer(location)
             pbar = ProgressBar(widgets=['%s: ' % pbar,
                 Percentage(), Bar(), ETA()],
                 maxval=total_items,fd=writer).start()
