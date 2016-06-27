@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+__author__ = "Marcin Kozlowski <marcinguy@gmail.com>"
+
 """ A multiprocess `Pool` variant with a `ProgressBar` and ncurses/blessings """
 
 
