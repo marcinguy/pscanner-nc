@@ -1,10 +1,10 @@
 # Python parallel IP Scanner
 
-Python parallel IP scanner with progressbar and SSL support (Ncureses/Blessings version)
+Python parallel IP port scanner with progressbar and SSL support (Ncureses/Blessings version)
 
 ## Description
 
-Python parallel IP scanner with progressbar and SSL support. Cut the scan time based on the amount of the cores installed on your computer.
+Python parallel IP port scanner with progressbar and SSL support. Cut the scan time based on the amount of the cores installed on your computer.
 
 ## Dependencies
 
